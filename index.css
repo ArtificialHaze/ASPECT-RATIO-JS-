@@ -1,0 +1,89 @@
+/* GLOBAL STYLING */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, monospace;
+}
+
+body {
+  background-color: rgb(83, 170, 83);
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+h2 span {
+  color: limegreen;
+}
+
+input {
+  padding: 15px 10px;
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  color: #170444;
+  outline: none;
+}
+
+input:focus {
+  border: 2px solid rebeccapurple;
+}
+
+label {
+  color: #170444;
+  font-weight: 650;
+  letter-spacing: 1px;
+}
+
+/* MAIN STYLING */
+
+.container {
+  padding: 80px 40px;
+  background-color: #fff;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+.wrapperOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 70px 0px;
+  gap: 10px;
+}
+
+.wrapperOne input {
+  width: 100px;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.wrapperTwo,
+.wrapperThree {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.wrapperTwo input,
+.wrapperThree input {
+  width: 100%;
+  font-size: 18px;
+}
